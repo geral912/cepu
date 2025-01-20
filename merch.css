@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.merchandaising img{
+    padding: 10%;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    border-radius: 5%;
+}
+
+.merchandaising img:hover{
+    transform: scale(1.1);
+    transition: all .3 ease-in;
+}
+
+
+h4{
+    color: white;
+    margin-bottom: -5%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: start;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+
+ p{
+    color: yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+h5{
+    color: white;
+    margin-top: 10%;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+.merchandaising title{
+    margin-top: 8%;
+}
+
+.contacto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.bi-whatsapp{
+    color: white;
+}

@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+
+
+.biografia h2{
+    color: white;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.biografia p{
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.integrantes{
+    overflow: hidden;
+    align-items: baseline;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.persona{
+    width: 18%;
+    font-size: 1.5em;
+    border: 1px solid yellow;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 15%;
+    box-sizing: border-box;
+    
+}
+
+
+.persona{
+    text-align: center;
+    
+}
+
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%; 
+    height: 10%;
+}
+
+.personah5,
+.personah6{
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.personah5{
+    font-size: 0.9em;
+    
+
+}
+.personah6{
+    font-size: 0.8em;
+    font-style: italic;
+    
+}
+
+.persona p{
+    font-size: 0.7em;
+    color: white;
+    margin: 0 1em 1em;
+
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
+
+/* Tamaño tablet y compu*/
+@media(min-width: 500px){
+    .persona{
+        width: 20%;
+
+    }
+}
+
+@media(min-width: 801px){
+    .persona{
+        width: 20%;
+
+    }
+}
+
+/* Tamaño celu*/
+
+@media(min-width: 200px){
+    .persona{
+        width: 20%;
+    }
+}
+
